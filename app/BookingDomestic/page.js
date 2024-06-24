@@ -104,7 +104,7 @@ const DomesticBook = (props) => {
     console.log(data);
     console.log("data is there ",JSON.stringify(data));
    
-     const apiEndpoint = `http://localhost:3000/api/domBook`;
+     const apiEndpoint = `https://scube.jsontech.in/api/domBook`;
 
         try {
             const response = await axios.post(apiEndpoint, data, {

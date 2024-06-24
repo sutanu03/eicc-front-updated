@@ -18,7 +18,7 @@ const Register = () => {
     try {
       // Assuming you have an API endpoint for posting reservation data
       //console.log(mobileNo);
-      const response = await axios.post(`http://localhost:3000/api/register`, {
+      const response = await axios.post(`https://scube.jsontech.in/api/register`, {
         email, password 
       });
 

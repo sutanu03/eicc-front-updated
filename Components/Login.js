@@ -17,7 +17,7 @@ const LoginOTP = () => {
     const sendOtp = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post(`http://localhost:3000/api/login`, {
+            const response = await axios.post(`https://scube.jsontech.in/api/login`, {
                 email, password 
             });
 

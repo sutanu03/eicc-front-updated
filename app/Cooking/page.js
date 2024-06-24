@@ -59,7 +59,7 @@ const CookBook = () => {
     };
 
     const saveCookBookToDatabase = async (data) => {
-        const apiEndpoint = `http://localhost:3000/api/cookBook`;
+        const apiEndpoint = `https://scube.jsontech.in/api/cookBook`;
 
         try {
             const response = await axios.post(apiEndpoint, data, {
