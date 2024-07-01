@@ -129,7 +129,7 @@ color: rgb(142, 146, 255);
 
 .btn-lC {
   font-weight: bolder;
-  font-size: 2vh;
+  /*font-size: 2vh;*/
 }
 
 @media screen and (min-width: 600px) {
